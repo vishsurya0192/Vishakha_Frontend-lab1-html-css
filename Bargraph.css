@@ -1,0 +1,57 @@
+body {
+    margin: 0%;
+}
+#Bargraph {
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+#Bargraph article {
+    display: inline-block;
+}
+p {
+    padding-left: 20px;
+}
+div {
+    background-color: rgb(230, 190, 190);
+    width: 40px;
+    height: 300px;
+    margin: 20px;
+}
+#Bar1 {
+    background-color:  rgb(240, 244, 255);
+    width: 100%;
+    height: 70%;
+    animation-name: plot1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes plot1 {
+    0%{height: 100%; background-color: azure;}
+    100%{height: 70%; background-color: azure;}
+}
+#Bar2 {
+    height: 60%;
+    width: 100%;
+    background-color: rgb(240, 244, 255);
+    animation-name: plot2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes plot2 {
+    0%{height: 100%; background-color: azure;}
+    100%{height: 60%; background-color: azure;}
+}
+#Bar3 {
+    height: 15%;
+    width: 100%;
+    background-color:  rgb(240, 244, 255);
+    animation-name: plot3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes plot3 {
+    0%{height: 100%; background-color: azure;}
+    100%{height: 20%; background-color: azure;}
+}
